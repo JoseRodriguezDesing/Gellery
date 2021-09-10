@@ -1,1 +1,6 @@
 www.calabasita.ml
+$ dig www.calabasita.ml +nostats +nocomments +nocmd
+    > ;www.calabasita.ml.                     IN      CNAME
+    > www.calabasita.ml.              3592    IN      CNAME   joserodriguezdesing.github.io.
+    > joserodriguezdesing.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
